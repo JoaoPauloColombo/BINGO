@@ -9,7 +9,9 @@ body {
     background-size: cover;
     color: #023047
 }
-
+h1{
+    margin-bottom: 20;
+}
 .page {
     display: flex;
     flex-direction: column;

@@ -1,13 +1,20 @@
-var number2 = Math.round((Math.random() * 25) + 1);
+var numbers = [];
 
-
-document.getElementById("num").innerText = number2;
-
-
+// Loop para gerar 15 números aleatórios diferentes
 for (var i = 0; i < 15; i++) {
-    var newDiv = document.createElement("div");
+    // Gera um número aleatório
+    var randomNumber;
+    do {
+        randomNumber = Math.round((Math.random() * 25) + 1);
+    } while (numbers.includes(randomNumber)); 
+    
+    numbers.push(randomNumber);
+    
 
-    newDiv.innerText = number2;
+    var newDiv = document.createElement("div");
+    
+
+    newDiv.innerText = randomNumber;
     
     document.getElementById("num").appendChild(newDiv);
 }

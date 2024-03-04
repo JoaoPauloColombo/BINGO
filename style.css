@@ -9,7 +9,9 @@ body {
     background-size: cover;
     color: #023047
 }
-
+h1{
+    margin-bottom: 20;
+}
 .page {
     display: flex;
     flex-direction: column;
@@ -51,33 +53,6 @@ body {
     margin-bottom: 25px;
 }
 
-.formLogin select {
-    padding: 15px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    border-radius: 4px;
-    transition: all linear 160ms;
-    outline: none;
-}
-
-.formLogin input {
-    padding: 15px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    border-radius: 4px;
-    transition: all linear 160ms;
-    outline: none;
-}
-
-
-.formLogin input:focus {
-    border: 1px solid #2a07f1;
-}
-
 .formLogin label {
     font-size: 14px;
     font-weight: 600;
@@ -104,12 +79,26 @@ body {
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 !important;
-    height: 70px;
+    height: 90px;
     border-radius: 10px;
-    text-align: center;
     width: 300px;
+    position: relative;
+    right: -110px;
 }
 
 h1{
     font-family: fantasy;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #073f6dde;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }

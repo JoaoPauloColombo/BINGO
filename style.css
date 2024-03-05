@@ -36,8 +36,8 @@ body {
 }
 
 .formLogin h1 {
-    padding: 0;
-    margin: 0;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
     font-weight: 500;
     font-size: 2.3em;
 }
@@ -79,7 +79,7 @@ body {
     border-radius: 10px;
     width: 300px;
     position: relative;
-    right: -110px;
+    right: -120px;
 }
 
 h1{
@@ -89,12 +89,12 @@ h1{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     background-color: #073f6dde;
-    padding: 10px;
+    padding: 20px;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
     text-align: center;
 }
